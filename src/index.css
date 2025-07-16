@@ -34,3 +34,19 @@ body {
   color: white;
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .options {
+    grid-template-columns: 1fr; 
+  }
+
+  .Quiz-header .Title {
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .Quiz-header .Title .btn{
+      position: static;
+    }
+  
+}

@@ -53,7 +53,7 @@ export const Quiz = () => {
     return (
         <div className="container-fluid vh-100 bg-transparent text-center align-self-center">
             <div className="Quiz-header h-100 d-flex flex-column justify-content-center">
-                <div className="d-flex justify-content-center mx-auto position-relative" 
+                <div className="Title d-flex justify-content-center mx-auto position-relative" 
                   style={{ width: '80%' }}>
                 <h1 className="fs-3 text-white ">Quiz Duel</h1>
                  <button className="btn btn-dark position-absolute end-0 " onClick={() => navigate("/started")}>Restart</button>
