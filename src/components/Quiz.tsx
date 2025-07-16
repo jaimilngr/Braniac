@@ -29,7 +29,6 @@ export const Quiz = () => {
             setCurrentPlayer(currentPlayer === 'player-1' ? 'player-2' : 'player-1');
         } else {
             setGameOver(true);
-            const winner = player1Score > player2Score ? 'Player 1' : player2Score > player1Score ? 'Player 2' : 'It\'s a tie';            
         }
     };
 
