@@ -38,6 +38,7 @@ body {
 @media screen and (max-width: 768px) {
   .options {
     grid-template-columns: 1fr !important; 
+    width: auto !important;
   }
 
   .Quiz-header .Title {
@@ -55,3 +56,4 @@ body {
     }
   
 }
+
