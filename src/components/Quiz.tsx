@@ -69,7 +69,7 @@ export const Quiz = () => {
         ) : (
             <>
                 <h2 className="fs-4">{`Turn: ${currentPlayer === 'player-1' ? player1Name : player2Name}`}</h2>
-                <h1 className="fs-2">{question.question}</h1>
+                <h1 className="fs-2 question">{question.question}</h1>
                 
                 <div className="options d-grid mx-auto mt-4" style={{
                     gridTemplateColumns: 'repeat(2, 1fr)',

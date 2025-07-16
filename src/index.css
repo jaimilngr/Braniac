@@ -37,7 +37,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .options {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr !important; 
   }
 
   .Quiz-header .Title {
@@ -46,7 +46,12 @@ body {
   }
 
     .Quiz-header .Title .btn{
-      position: static;
+      position: static !important;
+      width: 100%;
+    }
+
+    .quiz-card .question {
+      font-size: 20px !important;
     }
   
 }
